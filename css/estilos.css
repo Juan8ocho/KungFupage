@@ -107,11 +107,12 @@ h2 {
 
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 500px) {
   .titulos {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    }
+
   }
+
+}
