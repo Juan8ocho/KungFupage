@@ -103,3 +103,21 @@ h2 {
   }
 
 }
+
+@media (max-width: 500px) {
+  #titulo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 500px) {
+  #titulo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
