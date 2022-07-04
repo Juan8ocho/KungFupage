@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Raleway:wght@200&family=Roboto+Slab:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,500&family=Macondo&family=Raleway:wght@200&family=Roboto+Slab:wght@600&display=swap');
 
 header {
   background-image: url(../Fotos/fondochino.jpg);
@@ -92,9 +93,11 @@ h2 {
   display: flex;
   align-content: space-between;
   flex-direction:column;
+  text-align:center;
+}
 
-
-
+.historia1 {
+  font-family: 'Roboto Slab', serif;
 }
 
 @media (max-width: 500px) {
@@ -113,7 +116,7 @@ h2 {
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   #titulo2 {
     display: flex;
     align-items: center;
